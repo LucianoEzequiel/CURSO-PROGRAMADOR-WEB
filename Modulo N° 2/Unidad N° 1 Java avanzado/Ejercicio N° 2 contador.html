@@ -4,21 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contador</title>
+    <title>document</title>
 </head>
 <body>
-    <textarea name="contador" id="contador" cols="30" rows="10"></textarea>
+    <textarea name="" id="texto" cols="30" rows="10"></textarea>
+    <div>Caracteres: <span id="contar"></span></div>
     <script>
-function countChars(obj){
-    var maxLength = 20;
-    var strLength = obj.value.length;
-    
-    if(strLength > maxLength){
-        document.getElementById("charNum").innerHTML = '<span style="color: red;">'+strLength+' out of '+maxLength+' characters</span>';
-    }else{
-        document.getElementById("charNum").innerHTML = strLength+' out of '+maxLength+' characters';
-    }
-}
+    var texto = document.getElementById('texto');
+    var contar = document.getElementById('contar');
+
+    texto.addEventListener('keyup', function(){
+        contar.innerText = texto.value.length;
+    })
     </script>
 </body>
 </html>
