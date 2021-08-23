@@ -1,0 +1,15 @@
+footer {background-color: grey;
+}
+footer {
+    font-weight: bold;
+}
+h1, h2 {
+    font-family: 'renie+benie',
+}
+.hero {
+    background: url(.../img/header.jpg) no-repeat;
+    background-size: cover;
+    height: 50vh;
+    min-height: 600px;
+    color: cornsilk;
+}
