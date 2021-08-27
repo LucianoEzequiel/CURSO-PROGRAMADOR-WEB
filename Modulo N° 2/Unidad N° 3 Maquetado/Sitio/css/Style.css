@@ -6,16 +6,16 @@ font-family: 'Dancing Script', cursive;
 font-family: 'Kaushan Script', cursive;
 font-family: 'Open Sans', sans-serif;*/
 
-footer {background-color: grey;
+footer {background-color: rgb(63, 61, 61);
 }
 footer {
     font-weight: bold;
 }
 h1, h2 {
-    font-family: 'Danving Script', cursive;
+    font-family: 'Dancing Script', cursive;
 }
 .hero {
-    background: url(img/) no-repeat;
+    background: url(/m) no-repeat;
     background-size: cover;
     height: 50vh;
     min-height: 600px;
