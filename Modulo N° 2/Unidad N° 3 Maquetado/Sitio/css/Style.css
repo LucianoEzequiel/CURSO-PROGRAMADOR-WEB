@@ -15,7 +15,7 @@ h1, h2 {
     font-family: 'Dancing Script', cursive;
 }
 .hero {
-    background: url(/m) no-repeat;
+    background: url(img/portada1.jpg) no-repeat;
     background-size: cover;
     height: 50vh;
     min-height: 600px;
