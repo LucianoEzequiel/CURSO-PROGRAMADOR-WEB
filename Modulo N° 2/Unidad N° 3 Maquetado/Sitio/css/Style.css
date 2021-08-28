@@ -15,7 +15,7 @@ h1, h2 {
     font-family: 'Dancing Script', cursive;
 }
 .hero {
-    background: url(img/portada1.jpg) no-repeat;
+    background: url(/Modulo\ N°\ 2/img/potada2.jpg) no-repeat;
     background-size: cover;
     height: 50vh;
     min-height: 600px;
