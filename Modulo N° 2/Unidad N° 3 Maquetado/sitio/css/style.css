@@ -1,0 +1,13 @@
+footer {background-color: grey;
+font-weight: bold;
+}
+h1, h2 {
+font-family: 'Alfa Slab One', cursive;
+}
+.hero {
+    background: url(img/1.jpg) no-repeat;
+    background-size: cover;
+    height: 50vh;
+    min-height: 600px;
+    color: beige;
+}
