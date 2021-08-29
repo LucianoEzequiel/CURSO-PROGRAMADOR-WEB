@@ -5,7 +5,7 @@ h1, h2 {
 font-family: 'Alfa Slab One', cursive;
 }
 .hero {
-    background: url(img/header.jpg) no-repeat;
+    background: url(/Modulo\ N°\ 2/) no-repeat;
     background-size: cover;
     height: 50vh;
     min-height: 600px;
