@@ -7,7 +7,7 @@ h2 {
     font-family: 'Calligraffitti', cursive; 
 }
 .hero {
-    background: url ('img/header.jpg') no-repeat;
+    background: url ('/img/header.jpg') no-repeat;
     background-size: cover;
     height: 50vh;
     min-height: 600px;
