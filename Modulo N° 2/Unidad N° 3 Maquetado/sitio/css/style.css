@@ -7,7 +7,7 @@ h2 {
     font-family: 'Calligraffitti', cursive; 
 }
 .hero {
-    background: url() no-repeat;
+    background: url ('img/header.jpg') no-repeat;
     background-size: cover;
     height: 50vh;
     min-height: 600px;
@@ -76,3 +76,25 @@ content: "\f138";
 .Review {
     background: #efefef
 }
+.form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+  }
+  
+  .form button {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
+  }
