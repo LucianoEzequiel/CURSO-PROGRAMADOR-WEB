@@ -13,6 +13,8 @@ h2 {
     min-height: 600px;
     color: black;
     font-weight: bold;
+    font-size: x-large;
+    font-family: 'Calligraffitti', cursive;
 }
 .lista-novedades {
     margin: 0;
