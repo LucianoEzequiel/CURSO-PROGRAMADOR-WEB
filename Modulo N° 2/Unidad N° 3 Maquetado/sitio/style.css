@@ -7,11 +7,11 @@ h2 {
     font-family: 'Calligraffitti', cursive; 
 }
 .hero {
-    background: url('img/header.jpg') no-repeat;
+    background: url('img/Seasonings.jpg') no-repeat;
     background-size: cover;
     height: 50vh;
     min-height: 600px;
-    color: black;
+    color: rgb(252, 249, 249);
     font-weight: bold;
     font-size: x-large;
     font-family: 'Calligraffitti', cursive;
