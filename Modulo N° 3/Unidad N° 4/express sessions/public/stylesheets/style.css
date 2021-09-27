@@ -1,8 +1,79 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+footer {background-color: gray;
 }
-
-a {
-  color: #00B7FF;
+h1 {
+font-family: 'Alfa Slab One', cursive;
+}
+h2 {
+    font-family: 'Calligraffitti', cursive; 
+}
+.hero {
+    background: url('/images/Seasonings.jpg') no-repeat;
+    background-size: cover;
+    height: 50vh;
+    min-height: 600px;
+    color: white;
+    font-weight: bold;
+}
+.lista-novedades {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.lista-novedades li {
+    margin: 4px 0;
+}
+.lista-novedades li a {
+background-color: #fff;
+font-family: 'Alfa Slab One', cursive;
+font-size: 1.2rem;
+color: #a0a0a0;
+transition: all .2s ease-in-out;
+display: block;
+}
+.lista-novedades li a:hover {
+    color: #212529;
+    background-color: #dadada;
+}
+.lista-novedades li a img {
+    width: 120px;
+    height: 50px;
+    filter: grayscale();
+    transition: all .2s ease-in-out;
+    margin-right: 1rem;
+    opacity: 0.6;
+}
+.lista-novedades li a:hover img {
+    filter: none;
+    margin-right: 1.4rem;
+    opacity: 1;
+}
+.Testimonios {
+    background-color:#dadada;
+    padding-bottom: 4rem !important;
+}
+.Testimonios {
+    text-align: center;
+    padding: 50px 20px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none;
+}
+.carousel-control-prev-icon:after,
+.carousel-control-next-icon:after {
+    font-family: "FontAwesome";
+    font-size: 30px;
+    color: #000;
+}
+.carousel-control-prev-icon:after {
+content: "\f137";
+}
+.carousel-control-next-icon:after {
+content: "\f138";
+}
+.carousel-indicators li {
+    background-color: #000;
+}
+.Review {
+    background: #efefef
 }
