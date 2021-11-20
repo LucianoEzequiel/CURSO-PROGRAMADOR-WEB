@@ -1,0 +1,11 @@
+1)	SELECT nombre, Trabajo FROM empleados
+2)	SELECT nombre, Edad FROM empleados
+3)	SELECT nombre, edad FROM empleados WHERE Trabajo = 'programador'
+4)	SELECT nombre, Edad FROM empleados WHERE edad >= 30
+5)	SELECT Nombre, Apellido, Email FROM empleados WHERE nombre like '%juan%'
+10)	SELECT apellido FROM empleados WHERE Apellido LIKE 's%'
+11)	SELECT apellido FROM empleados WHERE apellido LIKE '%I'
+12)	INSERT INTO `empleados`(`id_emp`, `Nombre`, `Apellido`, `Trabajo`, `Edad`, `Salario`, `Email`) 
+	VALUES (22,Francisco,Perez,Programador,26,90000,francisco@bignet.com)
+13)	DELETE FROM `empleados` WHERE id_emp=9
+14)	UPDATE empleados SET Salario=90000 WHERE id_emp=14
